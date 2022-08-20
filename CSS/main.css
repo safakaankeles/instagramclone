@@ -1,0 +1,82 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+  background-color: #fafafa;
+}
+#headerTopMenu {
+  height: 60px;
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0%;
+  border-bottom: 1px solid #faf9fa;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  align-items: center;
+}
+#instagramText {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+
+#instagramTextIcon {
+  height: 36px;
+  width: 103px;
+  position: sticky;
+}
+#serachBoxDiv {
+  /* margin-left: 10%; */
+}
+#searchBox {
+  margin-left: 10%;
+  width: 268px;
+  height: 36px;
+  border-radius: 8px;
+  border: none;
+  background-color: #efefef;
+}
+#homeIcon {
+  margin-left: 7%;
+}
+#homeIconImg {
+  width: 24px;
+  height: 24px;
+}
+#messagesIcon {
+  margin-left: 1%;
+}
+#messagesIconImg {
+  width: 24px;
+  height: 24px;
+}
+#newPostIcon {
+  margin-left: 1%;
+}
+#newPostIconImg {
+  width: 24px;
+  height: 24px;
+}
+#discoverIcon {
+  margin-left: 1%;
+}
+#discoverIconImg {
+  width: 24px;
+  height: 24px;
+}
+#heartIcon {
+  margin-left: 1%;
+}
+#heartIconImg {
+  width: 24px;
+  height: 24px;
+}
+#profile {
+  margin-left: 1%;
+}
+#profilePicture {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
