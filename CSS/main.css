@@ -16,17 +16,20 @@ body {
   position: fixed;
   top: 0;
   align-items: center;
+  justify-content: center;
+  z-index: 3;
 }
 #instagramText {
-  margin-left: 25.7%;
-  margin-top: 10px;
+  right: 50px;
+  margin-bottom: 20px;
   padding-right: 230px;
+  position: relative;
 }
 
 #instagramTextIcon {
   height: 36px;
   width: 103px;
-  position: sticky;
+  position: absolute;
 }
 #space {
   margin: 100px;
@@ -41,7 +44,7 @@ body {
   border-radius: 8px;
   border: none;
   background-color: #efefef;
-  font-size: 16px;
+  font-size: 15px;
   padding: 0%;
 }
 #search {
@@ -54,7 +57,7 @@ body {
   width: 15px;
 }
 #homeIcon {
-  margin-left: 4%;
+  margin-left: 6%;
 }
 #homeIconImg {
   width: 22px;
@@ -62,35 +65,35 @@ body {
   padding: 0%;
 }
 #messagesIcon {
-  margin-left: 1%;
+  margin-left: 1.5%;
 }
 #messagesIconImg {
   width: 24px;
   height: 24px;
 }
 #newPostIcon {
-  margin-left: 1%;
+  margin-left: 1.5%;
 }
 #newPostIconImg {
   width: 24px;
   height: 24px;
 }
 #discoverIcon {
-  margin-left: 1%;
+  margin-left: 1.5%;
 }
 #discoverIconImg {
   width: 24px;
   height: 24px;
 }
 #heartIcon {
-  margin-left: 1%;
+  margin-left: 1.5%;
 }
 #heartIconImg {
   width: 24px;
   height: 24px;
 }
 #profile {
-  margin-left: 1%;
+  margin-left: 1.5%;
 }
 #profilePicture {
   width: 24px;
@@ -100,4 +103,143 @@ body {
 #container {
   width: 470px;
   height: 119px;
+  border: 1px #dbdbdb solid;
+  display: flex;
+  flex-direction: column;
+  margin: 85px 21.7%;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+#storiesList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: -22px;
+}
+.anyoneStory {
+  height: 84px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 14px;
+}
+.anyoneStory p {
+  font-size: 12px;
+  text-align: center;
+  line-height: 5px;
+  color: #262626;
+}
+.anyonePicture {
+  border-radius: 50%;
+  height: 56px;
+  width: 56px;
+  border: 2px red solid;
+}
+#postList {
+  margin-top: 20px;
+  width: 470px;
+  height: auto;
+  border: 1px #dbdbdb solid;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.headerPost {
+  height: 48px;
+  line-height: 48px;
+  position: relative;
+  display: flex;
+}
+.headerPost p {
+  line-height: 20px;
+  color: #262626;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.postPicture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-top: 6px;
+  margin-left: 6px;
+  border: 1px white solid;
+  border: 2px red solid;
+}
+.postPhoto {
+  height: 471px;
+  width: 471px;
+}
+.postConnect {
+}
+.likeButton {
+  height: 24px;
+  width: 24px;
+  margin-left: 13px;
+  margin-top: 8px;
+}
+.mentionIcon {
+  width: 28px;
+  height: 28px;
+  margin-left: 12px;
+}
+.shareIcon {
+  height: 24px;
+  width: 24px;
+  margin-left: 12px;
+}
+.saveIcon {
+  height: 24px;
+  width: 24px;
+  margin-left: 315px;
+  margin-top: 8px;
+  position: absolute;
+}
+#connectContainer {
+  display: flex;
+}
+#contentWrapper {
+  margin-bottom: 30px;
+}
+.sharerName {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 13px;
+}
+.sharerExplantion {
+  font-size: 14px;
+  font-weight: 350;
+  color: #262626;
+  margin-left: 10px;
+  position: relative;
+}
+.commentInfo {
+  color: #8e8e8e;
+  font-size: 14px;
+  margin-left: 13px;
+  margin-top: 0px;
+}
+.timeInfo {
+  font-size: 10px;
+  color: #8e8e8e;
+  margin-left: 13px;
+}
+.smileIcon {
+  width: 36px;
+  height: 36px;
+  margin-left: 5px;
+}
+.commentText {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 50px;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+.shareButton {
+  color: #c1e0fd;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 404px;
 }
