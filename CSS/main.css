@@ -5,24 +5,24 @@ body {
   background-color: #fafafa;
   height: 4000px;
 }
+#generalWrapper {
+  margin: 0px auto;
+  width: 915px;
+  height: auto;
+}
 #headerTopMenu {
   height: 60px;
   background-color: #ffffff;
   width: 100%;
-  margin: 0%;
-  border-bottom: 1px solid #faf9fa;
   display: flex;
-  flex-direction: row;
   position: fixed;
-  top: 0;
-  align-items: center;
   justify-content: center;
+  top: 0;
   z-index: 3;
+  margin: 0px auto;
+  left: 0%;
 }
 #instagramText {
-  right: 50px;
-  margin-bottom: 20px;
-  padding-right: 230px;
   position: relative;
 }
 
@@ -30,75 +30,138 @@ body {
   height: 36px;
   width: 103px;
   position: absolute;
+  top: 16px;
+  left: -470px;
 }
-#space {
-  margin: 100px;
-}
+
 #serachBoxDiv {
   /* margin-left: 10%; */
 }
+
 #searchBox {
-  /* margin-left: 10%; */
-  width: 268px;
-  height: 36px;
   border-radius: 8px;
+  width: 255px;
+  height: 36px;
   border: none;
   background-color: #efefef;
-  font-size: 15px;
-  padding: 0%;
-}
-#search {
+  margin-top: 12px;
   position: absolute;
-  margin-top: 11px;
-  margin-left: 13px;
+}
+#inputBox {
+  background-color: #efefef;
+  border: none;
+  border-radius: 8px;
+  width: 255px;
+  height: 36px;
+  font-size: 18px;
 }
 #searchImg {
-  height: 15px;
-  width: 15px;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#icons {
+  position: absolute;
+  top: 16px;
+  left: 934px;
 }
 #homeIcon {
-  margin-left: 6%;
+  position: relative;
 }
 #homeIconImg {
   width: 22px;
   height: 22px;
   padding: 0%;
+  position: absolute;
+  top: 16px;
+  left: 217px;
 }
 #messagesIcon {
-  margin-left: 1.5%;
+  position: relative;
 }
 #messagesIconImg {
   width: 24px;
   height: 24px;
+  position: absolute;
+  left: 264px;
+  top: 16px;
 }
 #newPostIcon {
-  margin-left: 1.5%;
+  position: relative;
 }
 #newPostIconImg {
   width: 24px;
   height: 24px;
+  position: absolute;
+  top: 16px;
+  left: 311px;
 }
 #discoverIcon {
-  margin-left: 1.5%;
+  position: relative;
 }
 #discoverIconImg {
   width: 24px;
   height: 24px;
+  position: absolute;
+  top: 16px;
+  left: 358px;
 }
 #heartIcon {
-  margin-left: 1.5%;
+  position: relative;
 }
 #heartIconImg {
   width: 24px;
   height: 24px;
+  position: absolute;
+  top: 16px;
+  left: 405px;
 }
 #profile {
-  margin-left: 1.5%;
+  position: relative;
 }
 #profilePicture {
   width: 24px;
   height: 24px;
   border-radius: 50%;
+  position: absolute;
+  top: 16px;
+  left: 452px;
+}
+#generalContainer {
+  display: flex;
+  width: 875px;
+  margin: 0px auto;
+}
+#profileCheck {
+  width: 319px;
+  margin-left: 30px;
+  display: flex;
+  font-size: smaller;
+}
+#profileCheckPhoto {
+  height: 56px;
+  width: 56px;
+  top: 110px;
+  border-radius: 50%;
+  position: absolute;
+}
+.kaanNick {
+  top: 110px;
+  position: absolute;
+  margin-left: 80px;
+  font-weight: 600;
+}
+.kaanNick a {
+  text-decoration: none;
+  color: #262626;
+}
+.kaanId {
+  top: 130px;
+  margin-left: 80px;
+  position: absolute;
+  color: #8e8e8e;
 }
 #container {
   width: 470px;
@@ -106,7 +169,8 @@ body {
   border: 1px #dbdbdb solid;
   display: flex;
   flex-direction: column;
-  margin: 85px 21.7%;
+  margin-top: 88px;
+  margin-left: 25px;
   border-radius: 8px;
   background-color: #ffffff;
 }
