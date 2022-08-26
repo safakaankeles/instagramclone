@@ -5,14 +5,21 @@ body {
   background-color: #fafafa;
   height: 4000px;
 }
-#generalWrapper {
-  margin: 0px auto;
-  width: 915px;
-  height: auto;
+
+.tuncContainer {
+  width: 920px;
+  margin: 0 auto;
 }
+
+#tuncHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
 #headerTopMenu {
   height: 60px;
-  background-color: #ffffff;
+  background-color: white;
   width: 100%;
   display: flex;
   position: fixed;
@@ -30,24 +37,39 @@ body {
 #instagramTextIcon {
   height: 36px;
   width: 103px;
-  position: absolute;
-  top: 16px;
-  left: -470px;
+  padding: 10px;
 }
 
-#serachBoxDiv {
-  /* margin-left: 10%; */
+#searchInput {
+  position: relative;
+}
+
+#searchGlassWrapper {
+  position: absolute;
+  z-index: 10;
+  left: 21px;
+  top: 22px;
+}
+
+#searchGlassWrapper img {
+  width: 16px;
+  height: 16px;
 }
 
 #searchBox {
   border-radius: 8px;
-  width: 255px;
-  height: 36px;
+  /* width: 255px; */
+  width: 200px;
+  height: 24px;
   border: none;
   background-color: #efefef;
   margin-top: 12px;
-  position: absolute;
+
+  /* padding: 6px 10px; */
+  padding: 6px 0px 6px 50px;
+  font-size: 16px;
 }
+
 #inputBox {
   background-color: #efefef;
   border: none;
@@ -68,27 +90,25 @@ body {
   top: 16px;
   left: 934px;
 }
-#homeIcon {
-  position: relative;
+
+/* ----------------------------- */
+/*  Right Menu Icons Setup Start */
+
+#rightMenuIcons {
+  margin-top: 16px;
 }
-#homeIconImg {
-  width: 22px;
-  height: 22px;
-  padding: 0%;
-  position: absolute;
-  top: 16px;
-  left: 217px;
+
+#rightMenuIcons a {
+  padding-left: 20px;
+  text-decoration: none;
 }
-#messagesIcon {
-  position: relative;
+
+#rightMenuIcons a:first-child {
+  padding-left: 0px;
 }
-#messagesIconImg {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 264px;
-  top: 16px;
-}
+/*  Right Menu Icons Setup Finish */
+/* ------------------------------ */
+
 #newPostIcon {
   position: relative;
 }
@@ -247,11 +267,7 @@ body {
   height: 28px;
   margin-left: 12px;
 }
-.shareIcon {
-  height: 24px;
-  width: 24px;
-  margin-left: 12px;
-}
+
 .saveIcon {
   height: 24px;
   width: 24px;
@@ -307,4 +323,10 @@ body {
   position: absolute;
   margin-top: -30px;
   margin-left: 404px;
+}
+
+@media only screen and (max-width: 600px) {
+  #searchInput {
+    display: none;
+  }
 }
